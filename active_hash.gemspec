@@ -44,7 +44,7 @@ Gem::Specification.new do |s|
     Dir.glob("lib/**/*")
   ].flatten
   s.test_files = s.files.grep(%r{^(test|spec|features)/})
-  s.add_runtime_dependency('activesupport', '>= 5.0.0')
+  s.add_runtime_dependency('activesupport', '>= 2.2.2')
   s.add_development_dependency "pry"
   s.required_ruby_version = '>= 2.4.0'
 end
